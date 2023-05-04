@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include india_payroll *.css
+recursive-include india_payroll *.csv
+recursive-include india_payroll *.html
+recursive-include india_payroll *.ico
+recursive-include india_payroll *.js
+recursive-include india_payroll *.json
+recursive-include india_payroll *.md
+recursive-include india_payroll *.png
+recursive-include india_payroll *.py
+recursive-include india_payroll *.svg
+recursive-include india_payroll *.txt
+recursive-exclude india_payroll *.pyc
